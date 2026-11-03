@@ -1,0 +1,369 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="UPDu5_wp2HvuXDOKcH_k">
+    <mxGraphModel dx="1880" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;shadow=0;" value="Barrel &amp;amp; Brew Current-State Process Flow" vertex="1">
+          <mxGeometry height="1010" width="905" x="-27" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-2" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-3" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-4" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-5" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rounded=1;whiteSpace=wrap;html=1;" value="1.&lt;br&gt;Sales manager estimates demand based on intuition" vertex="1">
+          <mxGeometry height="60" width="120" x="225" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-6" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-7" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="2.&lt;br&gt;Sales manager calls brewer with production request" vertex="1">
+          <mxGeometry height="60" width="130" x="425" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-8" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-9" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="3.&lt;br&gt;Brewer checks handwritten notebook for recipe and ingredient information" vertex="1">
+          <mxGeometry height="60" width="150" x="630" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-10" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-11" connectable="0" parent="iZjc1JdXmGCiXp6y4_Gl-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.2615" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-12" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Are ingredients available?" vertex="1">
+          <mxGeometry height="100" width="90" x="660" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-13" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-14" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="4. &lt;br&gt;Brewer begins brewing using handwritten recipe" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-15" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="1" vertex="1">
+          <mxGeometry height="80" width="80" x="810" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-16" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-17" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="5.&lt;div&gt;Brewer manually records the fermentation progress in a notebook and spreadsheet&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="230" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-18" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-19" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="6. &lt;br&gt;Brewer performs manual QC by tasting the beer" vertex="1">
+          <mxGeometry height="60" width="122.5" x="10" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-20" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-21" connectable="0" parent="iZjc1JdXmGCiXp6y4_Gl-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.25" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-22" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-23" connectable="0" parent="iZjc1JdXmGCiXp6y4_Gl-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.327" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-24" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Does the beer match quality standard?" vertex="1">
+          <mxGeometry height="100" width="130" x="6.25" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-25" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-26" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="7.&lt;br&gt;Brewer notifies the bottling team that batch is ready" vertex="1">
+          <mxGeometry height="60" width="135" x="230" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-27" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-28" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="71" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-29" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="Keep brewing&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-30" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="5" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-31" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-32" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="8.&lt;br&gt;Bottling team moves the beer to the bottling line" vertex="1">
+          <mxGeometry height="60" width="130" x="430" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-33" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-34" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="9.&lt;br&gt;Outdated bottling line&amp;nbsp; jams" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-35" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-36" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rounded=1;whiteSpace=wrap;html=1;" value="10&lt;br&gt;Bottling team manually fix jam/ production halted&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-37" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-38" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="11.&lt;br&gt;Bottling team completes bottling&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="555" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-39" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-40" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="13.&lt;br&gt;Brewer and Bottling team manually count&amp;nbsp; bottles produced&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-41" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-42" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="whiteSpace=wrap;html=1;rounded=1;" value="14.&lt;br&gt;Inventory count is manually updated on outdated spreadsheet&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="130" x="180" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-43" edge="1" parent="iZjc1JdXmGCiXp6y4_Gl-1" source="iZjc1JdXmGCiXp6y4_Gl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-44" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="rounded=1;whiteSpace=wrap;html=1;" value="15.&lt;br&gt;Sales manager places customer orders without confirming updated stock" vertex="1">
+          <mxGeometry height="60" width="140" x="175" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-45" parent="iZjc1JdXmGCiXp6y4_Gl-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="END" vertex="1">
+          <mxGeometry height="80" width="140" x="175" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-46" edge="1" parent="1" source="iZjc1JdXmGCiXp6y4_Gl-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-47" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffff88;strokeColor=#36393d;" value="Out of stock SMS/call to the customer" vertex="1">
+          <mxGeometry height="60" width="100" x="773" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-48" edge="1" parent="1" source="iZjc1JdXmGCiXp6y4_Gl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZjc1JdXmGCiXp6y4_Gl-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZjc1JdXmGCiXp6y4_Gl-49" connectable="0" parent="iZjc1JdXmGCiXp6y4_Gl-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SHydH309qY_Mni1HXZi0" name="Page-2">
+    <mxGraphModel dx="1373" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="Barrel &amp;amp; Brew Future-State Process" vertex="1">
+          <mxGeometry height="1390" width="950" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-2" parent="BYpWtCc4K3J-F_kEuGHr-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Sales Manager Team" vertex="1">
+          <mxGeometry height="180" width="950" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-7" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-2" source="BYpWtCc4K3J-F_kEuGHr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-5" parent="BYpWtCc4K3J-F_kEuGHr-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="START&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-9" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-2" source="BYpWtCc4K3J-F_kEuGHr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-6" parent="BYpWtCc4K3J-F_kEuGHr-2" style="rounded=1;whiteSpace=wrap;html=1;" value="1.&amp;nbsp;&lt;div&gt;S.M capture customer orders / distributor demand and weekly sales data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-11" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-2" source="BYpWtCc4K3J-F_kEuGHr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-8" parent="BYpWtCc4K3J-F_kEuGHr-2" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="2.&lt;div&gt;Brewery system generate forecast and shows inventory position&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-15" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-2" source="BYpWtCc4K3J-F_kEuGHr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-10" parent="BYpWtCc4K3J-F_kEuGHr-2" style="whiteSpace=wrap;html=1;rounded=1;" value="3. &lt;br&gt;S.M review forecast/submit production requests" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-14" parent="BYpWtCc4K3J-F_kEuGHr-2" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="4.&lt;br&gt;Brewery System&amp;nbsp; check recipe/ ingredient availability/ stock level/ production capacity&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="170" x="760" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-18" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-1" source="BYpWtCc4K3J-F_kEuGHr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-38" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-1" source="BYpWtCc4K3J-F_kEuGHr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-3" parent="BYpWtCc4K3J-F_kEuGHr-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Brewer/Production Team&amp;nbsp;" vertex="1">
+          <mxGeometry height="290" width="950" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-22" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-17" parent="BYpWtCc4K3J-F_kEuGHr-3" style="whiteSpace=wrap;html=1;rounded=1;" value="5.&lt;br&gt;Review production requests" vertex="1">
+          <mxGeometry height="60" width="120" x="785" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-24" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-25" connectable="0" parent="BYpWtCc4K3J-F_kEuGHr-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.1333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-27" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-28" connectable="0" parent="BYpWtCc4K3J-F_kEuGHr-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.2178" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-21" parent="BYpWtCc4K3J-F_kEuGHr-3" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Production clearance&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="125" x="582.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-33" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-23" parent="BYpWtCc4K3J-F_kEuGHr-3" style="whiteSpace=wrap;html=1;rounded=1;" value="6.&lt;br&gt;Create approved batch and follow standardize digital recipe" vertex="1">
+          <mxGeometry height="60" width="145" x="320" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-30" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-26" parent="BYpWtCc4K3J-F_kEuGHr-3" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Brewery System flagged: Insufficient ingredients/capacity constraint /scheduled conflict" vertex="1">
+          <mxGeometry height="60" width="200" x="545" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-29" parent="BYpWtCc4K3J-F_kEuGHr-3" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="1.&lt;br&gt;S.M review&amp;nbsp; requests declined/ updated requests/rescheduled" vertex="1">
+          <mxGeometry height="110" width="130" x="810" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-35" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-3" source="BYpWtCc4K3J-F_kEuGHr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-32" parent="BYpWtCc4K3J-F_kEuGHr-3" style="whiteSpace=wrap;html=1;rounded=1;" value="7.&lt;br&gt;Records brewing/fermentation progress in a digital production log" vertex="1">
+          <mxGeometry height="70" width="150" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-34" parent="BYpWtCc4K3J-F_kEuGHr-3" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="8.&lt;br&gt;Brewery System updates batch status &quot;Ready for QC&quot;" vertex="1">
+          <mxGeometry height="60" width="140" x="75" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-4" parent="BYpWtCc4K3J-F_kEuGHr-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Quality Control Team&amp;nbsp;" vertex="1">
+          <mxGeometry height="410" width="950" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-42" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-4" source="BYpWtCc4K3J-F_kEuGHr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-37" parent="BYpWtCc4K3J-F_kEuGHr-4" style="whiteSpace=wrap;html=1;rounded=1;" value="9.&lt;br&gt;Completes quality control checklist" vertex="1">
+          <mxGeometry height="60" width="150" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-65" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-4" source="BYpWtCc4K3J-F_kEuGHr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-66" connectable="0" parent="BYpWtCc4K3J-F_kEuGHr-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.55" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-41" parent="BYpWtCc4K3J-F_kEuGHr-4" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Quality Check" vertex="1">
+          <mxGeometry height="100" width="120" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-8" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-4" source="BYpWtCc4K3J-F_kEuGHr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aJQCstUWMq4CT8jvaOBa-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-45" parent="BYpWtCc4K3J-F_kEuGHr-4" style="whiteSpace=wrap;html=1;rounded=1;" value="11&lt;div&gt;Q.C team records defect or quality issues&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="345" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-46" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-4" source="BYpWtCc4K3J-F_kEuGHr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-48" connectable="0" parent="BYpWtCc4K3J-F_kEuGHr-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.1378" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-4" parent="BYpWtCc4K3J-F_kEuGHr-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="10&lt;br&gt;Brewery system update the batch &quot;Ready for bottling&quot;" vertex="1">
+          <mxGeometry height="60" width="180" x="620" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-51" parent="BYpWtCc4K3J-F_kEuGHr-4" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="6.&lt;br&gt;B.P team review batch issues and take corrective action&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="135" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-52" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-4" source="BYpWtCc4K3J-F_kEuGHr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-7" parent="BYpWtCc4K3J-F_kEuGHr-4" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="16.&lt;br&gt;Management&amp;nbsp; reviews rejected batch report if loss is significant&amp;nbsp;" vertex="1">
+          <mxGeometry height="85" width="110" x="640" y="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-68" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-1" source="aJQCstUWMq4CT8jvaOBa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="BYpWtCc4K3J-F_kEuGHr-67" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-102" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-1" source="BYpWtCc4K3J-F_kEuGHr-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-69" parent="BYpWtCc4K3J-F_kEuGHr-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Bottling Team/Sales manager&amp;nbsp;" vertex="1">
+          <mxGeometry height="310" width="950" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-90" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-69" source="BYpWtCc4K3J-F_kEuGHr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-89" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-67" parent="BYpWtCc4K3J-F_kEuGHr-69" style="whiteSpace=wrap;html=1;rounded=1;" value="11.&lt;br&gt;Receive bottling notification and schedule bottling activities&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="150" x="750" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-89" parent="BYpWtCc4K3J-F_kEuGHr-69" style="whiteSpace=wrap;html=1;rounded=1;" value="12.&lt;br&gt;Complete bottling and records quantity produced&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-94" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-93" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-96" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-69" source="BYpWtCc4K3J-F_kEuGHr-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BYpWtCc4K3J-F_kEuGHr-95" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-93" parent="BYpWtCc4K3J-F_kEuGHr-69" style="whiteSpace=wrap;html=1;rounded=1;" value="14&lt;br&gt;S.M checks available stock before confirming customer orders&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="150" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-95" parent="BYpWtCc4K3J-F_kEuGHr-69" style="whiteSpace=wrap;html=1;rounded=1;" value="15.&lt;br&gt;S.M confirms order and delivery commitment to customer" vertex="1">
+          <mxGeometry height="60" width="145" x="85" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-9" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-69" source="BYpWtCc4K3J-F_kEuGHr-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aJQCstUWMq4CT8jvaOBa-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1140" as="sourcePoint" />
+            <mxPoint x="470" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-6" parent="BYpWtCc4K3J-F_kEuGHr-69" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="13.&lt;br&gt;Brewery system update/ automate finished goods inventory&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="150" x="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-85" parent="BYpWtCc4K3J-F_kEuGHr-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" value="Management&amp;nbsp;" vertex="1">
+          <mxGeometry height="180" width="950" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-2" edge="1" parent="BYpWtCc4K3J-F_kEuGHr-85" source="BYpWtCc4K3J-F_kEuGHr-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aJQCstUWMq4CT8jvaOBa-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYpWtCc4K3J-F_kEuGHr-101" parent="BYpWtCc4K3J-F_kEuGHr-85" style="whiteSpace=wrap;html=1;rounded=1;" value="16.&lt;br&gt;Reviews dashboard for production, quality, inventory, sales, and equipment performance&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="190" x="62.5" y="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aJQCstUWMq4CT8jvaOBa-1" parent="BYpWtCc4K3J-F_kEuGHr-85" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="END" vertex="1">
+          <mxGeometry height="85" width="100" x="430" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
